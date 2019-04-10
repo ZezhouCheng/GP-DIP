@@ -1,17 +1,17 @@
-# A Bayesian Perspective on the Deep Image Prior (CVPR 2019)
+## A Bayesian Perspective on the Deep Image Prior (CVPR 2019)
 
 This repository contains the source code for the CVPR 2019 paper A Bayesian Perspective on the Deep Image Prior. 
 
-[Project page]()  
+[Project page](https://people.cs.umass.edu/~zezhoucheng/gp-dip/)  
 
 
-## Installation
+### Installation
 
 Our implementation is based on the code from Deep Image Prior [Ulyanov et al. CVPR 2018]. Refer to their [project page](https://github.com/DmitryUlyanov/deep-image-prior) for installation. 
 
 To run the **Gaussian_Process_RBF_Inpainting.ipynb**, [gpytorch](https://github.com/cornellius-gp/gpytorch) is required.
 
-## Notebook tutorials
+### Notebook tutorials
 
 * **1D_toy_example.ipynb**: compare the analytical and numerical kernel; CNN prior and SGLD posterior
 
@@ -24,11 +24,11 @@ To run the **Gaussian_Process_RBF_Inpainting.ipynb**, [gpytorch](https://github.
 * **GP_DIP_Inpainting.ipynb**: the Gaussian Process with DIP kernel for image inpainting.
 
 
-## Datasets 
+### Datasets 
 
 Download the dataset [here](https://www.dropbox.com/sh/etej8iipw4fa75g/AABAA84Ng-ZqmJHNAVN6Bi5pa?dl=0) for the large-hole image inpainting experiments presented in our supplementary.
 
-## Citation
+### Citation
 
 ```
 @inproceedings{Cheng_2019_CVPR,
