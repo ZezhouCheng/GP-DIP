@@ -11,7 +11,7 @@ Our implementation is based on the code from Deep Image Prior [Ulyanov et al. CV
 
 To run the **GP_RBF_Inpainting.ipynb**, [gpytorch](https://github.com/cornellius-gp/gpytorch) is required.
 
-### Notebook tutorials
+### Tutorials
 
 * **1D_toy_example.ipynb**: compare the analytical and numerical kernel; CNN prior and SGLD posterior
 
