@@ -4,21 +4,14 @@ import torch
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import os
-import sys
-import warnings
-warnings.filterwarnings("ignore")
 import numpy as np
-import torch.optim
-import time
 from skimage.measure import compare_psnr
 from utils.inpainting_utils import * 
-import _pickle as cPickle
 from models import *
-from scipy.interpolate import interp1d
 torch.backends.cudnn.enabled = True
 torch.backends.cudnn.benchmark =True
 dtype = torch.cuda.FloatTensor
-os.environ['CUDA_VISIBLE_DEVICES'] = '2'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 ## display images
 def np_plot(np_matrix, title, opt = 'RGB', savepath = None):

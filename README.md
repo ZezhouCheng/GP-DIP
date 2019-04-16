@@ -10,6 +10,14 @@ This repository contains the source code for the CVPR 2019 paper <u>A Bayesian P
 Our implementation is based on the code from Deep Image Prior [Ulyanov et al. CVPR 2018]. Refer to their [project page](https://github.com/DmitryUlyanov/deep-image-prior) for installation. (Dependencies: python = 3.6; pytorch = 0.4; numpy; 
 scipy; matplotlib; scikit-image; jupyter)
 
+Recommanded way to install: 
+```
+conda create -n GP-DIP python=3.6 anaconda
+cat /usr/local/cuda/version.txt # check out the CUDA version
+conda install pytorch=0.4.1 cuda80 -c pytorch
+conda install -c pytorch torchvision 
+```
+
 To run the **GP_RBF_Inpainting.ipynb**, [gpytorch](https://github.com/cornellius-gp/gpytorch) is required (Dependencies: python >= 3.6; pyTorch >= 1.0).
 
 ### Tutorials
