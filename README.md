@@ -13,7 +13,7 @@ scipy; matplotlib; scikit-image; jupyter; seaborn; \_pickle)
 Recommanded way to install: 
 ```
 conda create -n GP-DIP python=3.6 anaconda
-conda activate GP-DIP
+source activate GP-DIP
 cat /usr/local/cuda/version.txt # check out the CUDA version
 conda install pytorch=0.4.1 cuda80 -c pytorch
 conda install -c pytorch torchvision 
