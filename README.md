@@ -23,14 +23,14 @@ To run the **GP_RBF_Inpainting.ipynb**, [gpytorch](https://github.com/cornellius
 
 ### Tutorials
 
-* **1D_toy_example.ipynb**: compare the analytical and numerical kernel; CNN prior and SGLD posterior
+* **1D_toy_example.ipynb**: priors and posterior with 1D convolutional networks.
 
 * **Image_Denoising.ipynb**: compare the SGD variants and SGLD on image denoising task
 
 * **Image_Inpainting.ipynb**: compare the SGD variants and SGLD on image inpainting task
 
-
 * **GP_RBF_Inpainting.ipynb**: the Gaussian Process with RBF kernel for image inpainting.
+
 * **GP_DIP_Inpainting.ipynb**: the Gaussian Process with DIP kernel for image inpainting.
 
 
