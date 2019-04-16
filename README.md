@@ -8,7 +8,7 @@ This repository contains the source code for the CVPR 2019 paper <u>A Bayesian P
 ### Installation
 
 Our implementation is based on the code from Deep Image Prior [Ulyanov et al. CVPR 2018]. Refer to their [project page](https://github.com/DmitryUlyanov/deep-image-prior) for installation. (Dependencies: python = 3.6; pytorch = 0.4; numpy; 
-scipy; matplotlib; scikit-image; jupyter)
+scipy; matplotlib; scikit-image; jupyter; seaborn; \_pickle)
 
 Recommanded way to install: 
 ```
