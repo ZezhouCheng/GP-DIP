@@ -2,7 +2,7 @@
 
 This repository contains the source code for the CVPR 2019 paper <u>A Bayesian Perspective on the Deep Image Prior</u>. 
 
-[[Paper]](https://people.cs.umass.edu/~zezhoucheng/gp-dip/gp-dip.pdf)  [[Supplementary]](https://people.cs.umass.edu/~zezhoucheng/gp-dip/gp-dip-supp.pdf) [[arXiv]]() [[Project page]](https://people.cs.umass.edu/~zezhoucheng/gp-dip/)  
+[[Paper]](https://people.cs.umass.edu/~zezhoucheng/gp-dip/gp-dip.pdf)  [[Supplementary]](https://people.cs.umass.edu/~zezhoucheng/gp-dip/gp-dip-supp.pdf) [[arXiv]](https://arxiv.org/abs/1904.07457) [[Project page]](https://people.cs.umass.edu/~zezhoucheng/gp-dip/)  
 
 
 ### Installation
