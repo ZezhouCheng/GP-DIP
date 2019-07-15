@@ -15,8 +15,7 @@ Recommanded way to install:
 conda create -n GP-DIP python=3.6 anaconda
 source activate GP-DIP
 cat /usr/local/cuda/version.txt # check out the CUDA version
-conda install pytorch=0.4.1 cuda80 -c pytorch
-conda install -c pytorch torchvision 
+conda install pytorch=0.4.1 cuda80 torchvision -c pytorch
 ```
 
 To run the **GP_RBF_Inpainting.ipynb**, [gpytorch](https://github.com/cornellius-gp/gpytorch) is required (Dependencies: python >= 3.6; pyTorch >= 1.0).
